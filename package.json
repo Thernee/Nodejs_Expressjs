@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_expressjs",
+  "version": "1.0.0",
+  "description": "md # Nodejs and Expressjs project ## Brushingup on Nodejs for the DailyTracker app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Thernee/Nodejs_Expressjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thernee/Nodejs_Expressjs/issues"
+  },
+  "homepage": "https://github.com/Thernee/Nodejs_Expressjs#readme"
+}
