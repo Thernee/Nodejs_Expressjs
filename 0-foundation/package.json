@@ -1,0 +1,12 @@
+{
+  "name": "0-foundation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "0-test.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

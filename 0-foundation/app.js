@@ -1,17 +1,12 @@
+const express = require('express');
+const app = express();
 
-const http = require('http');
-
-const server = http.createServer(function(request, response) {
-  if (request.url === '/') {
-  response.end('Welcome to my homepage');
-  }
-  if (request.url === '/about') {
-  response.end('History of our company');
-  }
-  response.end(`<h1>404 Error!</h1>
-	  <a href="/">Back home</a>`)
-
+app.get('/home', (req, res) => {
+	res.status(200).send('Welcome to my page');
 });
 
-server.listen(5000);
+app.listen(5000);
 
+
+
+//console.log('Testing nodemon')
